@@ -1418,7 +1418,7 @@
         "ws": "^3.3.2",
         "xml2js": "^0.4.19"
     },
-    "description": "ARM Cortex-M GDB Debugger support for VSCode",
+    "description": "Fork of Cortex Debug extension with fixes and enhancements for ANU COMP2300 course",
     "devDependencies": {
         "@types/mocha": "^2.2.39",
         "@types/node": "^7.0.5",
@@ -1427,7 +1427,7 @@
         "typescript": "^2.1.6",
         "vscode": "^1.0.0"
     },
-    "displayName": "Cortex-Debug",
+    "displayName": "COMP2300 Debug",
     "engines": {
         "vscode": "^1.18.0"
     },
@@ -1439,9 +1439,9 @@
         "embedded"
     ],
     "main": "./out/src/frontend/extension",
-    "name": "cortex-debug",
+    "name": "comp2300-debug",
     "preview": true,
-    "publisher": "marus25",
+    "publisher": "anucecsit",
     "repository": {
         "type": "git",
         "url": "https://github.com/Marus/cortex-debug.git"
